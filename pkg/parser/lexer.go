@@ -3,8 +3,8 @@
 package parser
 
 import (
-	. "github.com/michaelmacinnis/oh/pkg/cell"
-	"github.com/michaelmacinnis/oh/pkg/system"
+	. "github.com/gofreebsd/oh/pkg/cell"
+	"github.com/gofreebsd/oh/pkg/system"
 	"strings"
 	"sync"
 	"unicode/utf8"

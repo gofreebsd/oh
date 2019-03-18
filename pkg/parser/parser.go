@@ -4,7 +4,7 @@ package parser
 
 import (
 	"fmt"
-	. "github.com/michaelmacinnis/oh/pkg/cell"
+	. "github.com/gofreebsd/oh/pkg/cell"
 )
 
 type parser struct {

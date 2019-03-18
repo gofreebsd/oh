@@ -23,15 +23,16 @@ Oh is released under an MIT license.
 package main
 
 import (
-	"github.com/michaelmacinnis/oh/pkg/cell"
-	"github.com/michaelmacinnis/oh/pkg/system"
-	"github.com/michaelmacinnis/oh/pkg/task"
-	"github.com/peterh/liner"
 	"os"
 	"path"
 	"path/filepath"
 	"sort"
 	"strings"
+
+	"github.com/gofreebsd/oh/pkg/cell"
+	"github.com/gofreebsd/oh/pkg/system"
+	"github.com/gofreebsd/oh/pkg/task"
+	"github.com/peterh/liner"
 )
 
 type ui struct {

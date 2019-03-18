@@ -7,7 +7,7 @@ export _stdout_: open w: "/"::join $_origin_ generated.go
 common::introduction @`(basename $0) $GOPACKAGE
 
 echo "import (
-	. \"github.com/michaelmacinnis/oh/pkg/cell\"
+	. \"github.com/gofreebsd/oh/pkg/cell\"
 	\"strings\"
 	\"unicode\"
 )"

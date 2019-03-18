@@ -17,7 +17,7 @@ package parser
 
 import (
 	"github.com/michaelmacinnis/adapted"
-	. "github.com/michaelmacinnis/oh/pkg/cell"
+	. "github.com/gofreebsd/oh/pkg/cell"
 	"strconv"
 )
 %}

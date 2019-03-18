@@ -5,7 +5,7 @@
 package task
 
 import (
-	. "github.com/michaelmacinnis/oh/pkg/cell"
+	. "github.com/gofreebsd/oh/pkg/cell"
 	"strings"
 	"unicode"
 )
